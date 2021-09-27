@@ -10,7 +10,7 @@ def start(playerScore, computerScore):
     print("LET THE GAME BEGIN")
     game(playerScore, computerScore)
 
-#Fucntion that handles the main loop of the game.
+#Function that handles the main loop of the game.
 def game(playerScore, computerScore):
     userWord = input("Enter your word: ")
     wordLength = len(userWord)
